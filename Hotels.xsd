@@ -24,7 +24,7 @@
 			<xsd:element name="Street" type="xsd:string"/>
 			<xsd:element name="City" type="xsd:string"/>
 			<xsd:element name="State" type="USStateAbbreviation"/>
-			<xsd:element name="Zip" type="xsd:long"/>
+			<xsd:element name="Zip" type="xsd:string"/>
 		</xsd:sequence>
 		<xsd:attribute name="NearestAirport" type="xsd:string" use="required"/>
 	</xsd:complexType>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="https://ngavu2004.github.io/XML-Hosting Hotels.xsd">
+    
+    <!-- ERROR (1): Root element is "Hotel" instead of "Hotels" -->
+
+    <Hotel Rating="4.5">
+        <Name>Westin Tempe</Name>
+        <Phone>480-968-8885</Phone>
+        <Phone>800-937-8461</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>11</Number>
+            <Street>E. 7th St</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85281</Zip>
+        </Address>
+    </Hotel>
+
+    <!-- ERROR (2): Missing required attribute NearestAirport -->
+    <Hotel Rating="4.3">
+        <Name>Hilton Garden Inn New York</Name>
+        <Phone>212-643-7100</Phone>
+        <Address>
+            <Number>63</Number>
+            <Street>W 35th St</Street>
+            <City>New York</City>
+            <State>NY</State>
+            <Zip>10001</Zip>
+        </Address>
+    </Hotel>
+
+    <!-- ERROR (3): Missing required Phone element -->
+    <Hotel>
+        <Name>Holiday Inn San Francisco</Name>
+        <Address NearestAirport="SFO">
+            <Number>1500</Number>
+            <Street>Van Ness Ave</Street>
+            <City>San Francisco</City>
+            <State>CA</State>
+            <Zip>94109</Zip>
+        </Address>
+    </Hotel>
+
+    <!-- ERROR (4): Missing closing tag for Address element -->
+    <Hotel Rating="4.0">
+        <Name>Omni Los Angeles Hotel</Name>
+        <Phone>213-617-3300</Phone>
+        <Address NearestAirport="LAX">
+            <Number>251</Number>
+            <Street>S Olive St</Street>
+            <City>Los Angeles</City>
+            <State>CA</State>
+            <Zip>90012</Zip>
+        <!-- Missing </Address> -->
+    </Hotel>
+
+    <!-- ERROR (5): Two Name elements for one hotel -->
+    <Hotel Rating="3.8">
+        <Name>Hyatt Place Austin</Name>
+        <Name>Duplicate Hotel Name</Name>
+        <Phone>512-476-4440</Phone>
+        <Address NearestAirport="Austin-Bergstrom">
+            <Number>211</Number>
+            <Street>E 3rd St</Street>
+            <City>Austin</City>
+            <State>TX</State>
+            <Zip>78701</Zip>
+        </Address>
+    </Hotel>
+
+</Hotel>

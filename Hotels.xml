@@ -19,7 +19,7 @@
 	<Hotel Rating="4.3">
 		<Name>Hilton Garden Inn New York</Name>
 		<Phone>212-643-7100</Phone>
-		<Address NearestAirport="LaGuardia">
+		<Address NearstAirport="LaGuardia">
 			<Number>63</Number>
 			<Street>W 35th St</Street>
 			<City>New York</City>
@@ -32,7 +32,7 @@
 		<Name>Holiday Inn San Francisco</Name>
 		<Phone>415-441-4000</Phone>
 		<Phone>877-666-3243</Phone>
-		<Address NearestAirport="SFO">
+		<Address NearstAirport="SFO">
 			<Number>1500</Number>
 			<Street>Van Ness Ave</Street>
 			<City>San Francisco</City>
@@ -44,7 +44,7 @@
 	<Hotel Rating="4.0">
 		<Name>Omni Los Angeles Hotel</Name>
 		<Phone>213-617-3300</Phone>
-		<Address NearestAirport="LAX">
+		<Address NearstAirport="LAX">
 			<Number>251</Number>
 			<Street>S Olive St</Street>
 			<City>Los Angeles</City>
@@ -56,7 +56,7 @@
 	<Hotel Rating="3.8">
 		<Name>Hyatt Place Austin</Name>
 		<Phone>512-476-4440</Phone>
-		<Address NearestAirport="Austin-Bergstrom">
+		<Address NearstAirport="Austin-Bergstrom">
 			<Number>211</Number>
 			<Street>E 3rd St</Street>
 			<City>Austin</City>
@@ -68,7 +68,7 @@
 	<Hotel>
 		<Name>Hotel Nikko San Francisco</Name>
 		<Phone>415-394-1111</Phone>
-		<Address NearestAirport="SFO">
+		<Address NearstAirport="SFO">
 			<Number>222</Number>
 			<Street>Mason St</Street>
 			<City>San Francisco</City>
@@ -80,7 +80,7 @@
 	<Hotel Rating="4.6">
 		<Name>Loews Chicago Hotel</Name>
 		<Phone>312-840-6600</Phone>
-		<Address NearestAirport="O'Hare">
+		<Address NearstAirport="O'Hare">
 			<Number>455</Number>
 			<Street>N Park Dr</Street>
 			<City>Chicago</City>
@@ -92,7 +92,7 @@
 	<Hotel>
 		<Name>W Boston Hotel</Name>
 		<Phone>617-261-8700</Phone>
-		<Address NearestAirport="Logan International">
+		<Address NearstAirport="Logan International">
 			<Number>100</Number>
 			<Street>Stuart St</Street>
 			<City>Boston</City>
@@ -105,7 +105,7 @@
 		<Name>JW Marriott Miami</Name>
 		<Phone>305-329-3500</Phone>
 		<Phone>888-789-3090</Phone>
-		<Address NearestAirport="Miami International">
+		<Address NearstAirport="Miami International">
 			<Number>1109</Number>
 			<Street>Brickell Ave</Street>
 			<City>Miami</City>
@@ -117,7 +117,7 @@
 	<Hotel>
 		<Name>Fairmont Scottsdale Princess</Name>
 		<Phone>480-585-4848</Phone>
-		<Address NearestAirport="Phoenix Sky Harbor">
+		<Address NearstAirport="Phoenix Sky Harbor">
 			<Number>7575</Number>
 			<Street>E Princess Dr</Street>
 			<City>Scottsdale</City>

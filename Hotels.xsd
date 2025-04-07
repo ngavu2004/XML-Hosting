@@ -23,63 +23,9 @@
 			<xsd:element name="Number" type="xsd:positiveInteger"/>
 			<xsd:element name="Street" type="xsd:string"/>
 			<xsd:element name="City" type="xsd:string"/>
-			<xsd:element name="State" type="USStateAbbreviation"/>
+			<xsd:element name="State" type="xsd:string"/>
 			<xsd:element name="Zip" type="xsd:string"/>
 		</xsd:sequence>
 		<xsd:attribute name="NearstAirport" type="xsd:string" use="required"/>
 	</xsd:complexType>
-	<xsd:simpleType name="USStateAbbreviation">
-		<xsd:restriction base="xsd:string">
-			<xsd:enumeration value="AL"/>
-			<xsd:enumeration value="AK"/>
-			<xsd:enumeration value="AZ"/>
-			<xsd:enumeration value="AR"/>
-			<xsd:enumeration value="CA"/>
-			<xsd:enumeration value="CO"/>
-			<xsd:enumeration value="CT"/>
-			<xsd:enumeration value="DE"/>
-			<xsd:enumeration value="FL"/>
-			<xsd:enumeration value="GA"/>
-			<xsd:enumeration value="HI"/>
-			<xsd:enumeration value="ID"/>
-			<xsd:enumeration value="IL"/>
-			<xsd:enumeration value="IN"/>
-			<xsd:enumeration value="IA"/>
-			<xsd:enumeration value="KS"/>
-			<xsd:enumeration value="KY"/>
-			<xsd:enumeration value="LA"/>
-			<xsd:enumeration value="ME"/>
-			<xsd:enumeration value="MD"/>
-			<xsd:enumeration value="MA"/>
-			<xsd:enumeration value="MI"/>
-			<xsd:enumeration value="MN"/>
-			<xsd:enumeration value="MS"/>
-			<xsd:enumeration value="MO"/>
-			<xsd:enumeration value="MT"/>
-			<xsd:enumeration value="NE"/>
-			<xsd:enumeration value="NV"/>
-			<xsd:enumeration value="NH"/>
-			<xsd:enumeration value="NJ"/>
-			<xsd:enumeration value="NM"/>
-			<xsd:enumeration value="NY"/>
-			<xsd:enumeration value="NC"/>
-			<xsd:enumeration value="ND"/>
-			<xsd:enumeration value="OH"/>
-			<xsd:enumeration value="OK"/>
-			<xsd:enumeration value="OR"/>
-			<xsd:enumeration value="PA"/>
-			<xsd:enumeration value="RI"/>
-			<xsd:enumeration value="SC"/>
-			<xsd:enumeration value="SD"/>
-			<xsd:enumeration value="TN"/>
-			<xsd:enumeration value="TX"/>
-			<xsd:enumeration value="UT"/>
-			<xsd:enumeration value="VT"/>
-			<xsd:enumeration value="VA"/>
-			<xsd:enumeration value="WA"/>
-			<xsd:enumeration value="WV"/>
-			<xsd:enumeration value="WI"/>
-			<xsd:enumeration value="WY"/>
-		</xsd:restriction>
-	</xsd:simpleType>
 </xsd:schema>

@@ -26,7 +26,7 @@
 			<xsd:element name="State" type="USStateAbbreviation"/>
 			<xsd:element name="Zip" type="xsd:string"/>
 		</xsd:sequence>
-		<xsd:attribute name="NearestAirport" type="xsd:string" use="required"/>
+		<xsd:attribute name="NearstAirport" type="xsd:string" use="required"/>
 	</xsd:complexType>
 	<xsd:simpleType name="USStateAbbreviation">
 		<xsd:restriction base="xsd:string">

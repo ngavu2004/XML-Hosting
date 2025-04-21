@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Staff>
+	<Employee>
+		<ID>001</ID>
+		<Name>Dr. Emily Carter</Name>
+		<Role>Principal</Role>
+		<Department>Administration</Department>
+		<Email>ecarter@school.edu</Email>
+	</Employee>
+	<Employee>
+		<ID>002</ID>
+		<Name>Mr. James Wilson</Name>
+		<Role>Teacher</Role>
+		<Department>Mathematics</Department>
+		<Email>jwilson@school.edu</Email>
+	</Employee>
+	<Employee>
+		<ID>003</ID>
+		<Name>Ms. Sarah Lee</Name>
+		<Role>Teacher</Role>
+		<Department>English</Department>
+		<Email>slee@school.edu</Email>
+	</Employee>
+	<Employee>
+		<ID>004</ID>
+		<Name>Mrs. Anita Desai</Name>
+		<Role>Admin Assistant</Role>
+		<Department>Office</Department>
+		<Email>adesai@school.edu</Email>
+	</Employee>
+	<Employee>
+		<ID>005</ID>
+		<Name>Mr. Tom Jackson</Name>
+		<Role>IT Support</Role>
+		<Department>IT</Department>
+		<Email>tjackson@school.edu</Email>
+	</Employee>
+</Staff>

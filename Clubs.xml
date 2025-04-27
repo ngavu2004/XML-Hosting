@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SchoolClubs>
+    <Club>
+        <Name>Science Club</Name>
+        <Advisor>Dr. Smith</Advisor>
+        <Members>35</Members>
+        <MeetingDay>Wednesday</MeetingDay>
+        <Location>Room 204</Location>
+    </Club>
+    <Club>
+        <Name>Art Club</Name>
+        <Advisor>Ms. Johnson</Advisor>
+        <Members>20</Members>
+        <MeetingDay>Friday</MeetingDay>
+        <Location>Art Studio</Location>
+    </Club>
+    <Club>
+        <Name>Debate Club</Name>
+        <Advisor>Mr. Brown</Advisor>
+        <Members>15</Members>
+        <MeetingDay>Monday</MeetingDay>
+        <Location>Room 101</Location>
+    </Club>
+    <Club>
+        <Name>Chess Club</Name>
+        <Advisor>Mrs. Lee</Advisor>
+        <Members>12</Members>
+        <MeetingDay>Thursday</MeetingDay>
+        <Location>Library</Location>
+    </Club>
+</SchoolClubs>
